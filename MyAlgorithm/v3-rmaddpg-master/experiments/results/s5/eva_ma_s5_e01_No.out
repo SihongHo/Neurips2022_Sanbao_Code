@@ -1,0 +1,10 @@
+env.action_space is [Discrete(4), Discrete(4), Discrete(4)] 
+env.observation_space is [Box(4,), Box(8,), Box(8,)] 
+obs_shape_n is [(4,), (8,), (8,)] 
+Using good policy maddpg and adv policy maddpg
+[Discrete(4), Discrete(8), Discrete(8)]
+Using noise policy maddpg
+There is 3 adversaries
+Loading previous state...
+Starting iterations...
+Finished agent benchmarking, now saving...

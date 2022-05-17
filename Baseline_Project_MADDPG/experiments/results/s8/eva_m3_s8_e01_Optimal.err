@@ -1,0 +1,11 @@
+usage: Reinforcement Learning experiments for multiagent environments
+       [-h] [--scenario SCENARIO] [--max-episode-len MAX_EPISODE_LEN]
+       [--num-episodes NUM_EPISODES] [--num-adversaries NUM_ADVERSARIES]
+       [--good-policy GOOD_POLICY] [--adv-policy ADV_POLICY]
+       [--noise-policy NOISE_POLICY] [--lr LR] [--lr-adv LR_ADV]
+       [--gamma GAMMA] [--batch-size BATCH_SIZE] [--num-units NUM_UNITS]
+       [--exp-name EXP_NAME] [--save-dir SAVE_DIR] [--save-rate SAVE_RATE]
+       [--load-dir LOAD_DIR] [--adv-dir ADV_DIR] [--restore] [--display]
+       [--benchmark] [--benchmark-iters BENCHMARK_ITERS]
+       [--benchmark-dir BENCHMARK_DIR] [--plots-dir PLOTS_DIR]
+Reinforcement Learning experiments for multiagent environments: error: unrecognized arguments: --bad-policy mmmddpg

@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 0 --server-name FeiNewML --save-dir models/s1/ma_s1_e01/ --scenario simple_reference --exp-name ma_s1_e01 > results/s1/ma_s1_e01.out 2> results/s1/ma_s1_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 0 --server-name FeiNewML --save-dir models/s2/ma_s2_e01/ --scenario simple_speaker_listener --exp-name ma_s2_e01 > results/s2/ma_s2_e01.out 2> results/s2/ma_s2_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 0 --server-name FeiNewML --save-dir models/s3/ma_s3_e01/ --scenario simple_spread --exp-name ma_s3_e01 > results/s3/ma_s3_e01.out 2> results/s3/ma_s3_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 1 --server-name FeiNewML --save-dir models/s4/ma_s4_e01/ --scenario simple_adversary --exp-name ma_s4_e01 > results/s4/ma_s4_e01.out 2> results/s4/ma_s4_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 1 --server-name FeiNewML --save-dir models/s5/ma_s5_e01/ --scenario simple_crypto --exp-name ma_s5_e01 > results/s5/ma_s5_e01.out 2> results/s5/ma_s5_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 1 --server-name FeiNewML --save-dir models/s6/ma_s6_e01/ --scenario simple_push --exp-name ma_s6_e01 > results/s6/ma_s6_e01.out 2> results/s6/ma_s6_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 3 --server-name FeiNewML --save-dir models/s7/ma_s7_e01/ --scenario simple_tag --exp-name ma_s7_e01 > results/s7/ma_s7_e01.out 2> results/s7/ma_s7_e01.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --num-adversaries 4 --server-name FeiNewML --save-dir models/s8/ma_s8_e01/ --scenario simple_world_comm --exp-name ma_s8_e01 > results/s8/ma_s8_e01.out 2> results/s8/ma_s8_e01.err &
+------------------------sleep------------------------

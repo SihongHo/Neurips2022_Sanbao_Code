@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s1/ma_s1_e03/ --lr-adv 1e-3 --scenario simple_reference --num-adversaries 0 --server-name FeiML --exp-name ma_s1_e03 > results/s1/ma_s1_e03.out 2> results/s1/ma_s1_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s2/ma_s2_e03/ --lr-adv 1e-3 --scenario simple_speaker_listener --num-adversaries 0 --server-name FeiML --exp-name ma_s2_e03 > results/s2/ma_s2_e03.out 2> results/s2/ma_s2_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s3/ma_s3_e03/ --lr-adv 1e-3 --scenario simple_spread --num-adversaries 0 --server-name FeiML --exp-name ma_s3_e03 > results/s3/ma_s3_e03.out 2> results/s3/ma_s3_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s4/ma_s4_e03/ --lr-adv 1e-3 --scenario simple_adversary --num-adversaries 1 --server-name FeiML --exp-name ma_s4_e03 > results/s4/ma_s4_e03.out 2> results/s4/ma_s4_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s5/ma_s5_e03/ --lr-adv 1e-3 --scenario simple_crypto --num-adversaries 1 --server-name FeiML --exp-name ma_s5_e03 > results/s5/ma_s5_e03.out 2> results/s5/ma_s5_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s6/ma_s6_e03/ --lr-adv 1e-3 --scenario simple_push --num-adversaries 1 --server-name FeiML --exp-name ma_s6_e03 > results/s6/ma_s6_e03.out 2> results/s6/ma_s6_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s7/ma_s7_e03/ --lr-adv 1e-3 --scenario simple_tag --num-adversaries 3 --server-name FeiML --exp-name ma_s7_e03 > results/s7/ma_s7_e03.out 2> results/s7/ma_s7_e03.err &
+------------------------sleep------------------------
+CUDA_VISIBLE_DEVICES=1 nohup python train.py --save-dir models/s8/ma_s8_e03/ --lr-adv 1e-3 --scenario simple_world_comm --num-adversaries 4 --server-name FeiML --exp-name ma_s8_e03 > results/s8/ma_s8_e03.out 2> results/s8/ma_s8_e03.err &
+------------------------sleep------------------------
